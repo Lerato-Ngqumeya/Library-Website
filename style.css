@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #f9f9f9;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  background: #4caf50;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #4caf50;
+  margin-top: 1.5rem;
+  border-bottom: 2px solid #4caf50;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.add-book,
+.library,
+.borrowing-history {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+#book-list {
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  background: white;
+}
+
+.book-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.book-item:last-child {
+  border-bottom: none;
+}
+
+#history-list {
+  padding: 1rem;
+  list-style-type: none;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  background: #4caf50;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
