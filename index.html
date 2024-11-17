@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Book Library</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>📚 My Personal Book Library</h1>
-    <p>Keep track of your books effortlessly!</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>📚 My Personal Book Library</h1>
+      <p>Keep track of your books effortlessly!</p>
+    </header>
 
-  <main>
-    <section class="add-book">
-      <h2>Add a New Book</h2>
-      <form id="book-form">
-        <input type="text" id="book-title" placeholder="Book Title" required>
-        <input type="text" id="book-author" placeholder="Author" required>
-        <input type="text" id="book-category" placeholder="Category" required>
-        <button type="submit">Add Book</button>
-      </form>
-    </section>
+    <main>
+      <section class="add-book">
+        <h2>Add a New Book</h2>
+        <form id="book-form">
+          <input
+            type="text"
+            id="book-title"
+            placeholder="Book Title"
+            required
+          />
+          <input type="text" id="book-author" placeholder="Author" required />
+          <input
+            type="text"
+            id="book-category"
+            placeholder="Category"
+            required
+          />
+          <button type="submit">Add Book</button>
+        </form>
+      </section>
 
-    <section class="library">
-      <h2>Your Library</h2>
-      <input type="text" id="search-bar" placeholder="Search books...">
-      <div id="book-list"></div>
-    </section>
+      <section class="library">
+        <h2>Your Library</h2>
+        <input type="text" id="search-bar" placeholder="Search books..." />
+        <div id="book-list"></div>
+      </section>
 
-    <section class="borrowing-history">
-      <h2>Borrowing History</h2>
-      <ul id="history-list"></ul>
-    </section>
-  </main>
+      <section class="borrowing-history">
+        <h2>Borrowing History</h2>
+        <ul id="history-list"></ul>
+      </section>
+    </main>
 
-  <footer>
-    <p>Created by Lerato Ngqumeya © 2024</p>
-  </footer>
+    <footer>
+      <p>Created by Lerato Ngqumeya © 2024</p>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
